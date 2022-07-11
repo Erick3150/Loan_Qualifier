@@ -19,22 +19,40 @@ Describe the technologies required to use your project such as programming langu
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+For this python application you will need to install questionary and fire. To do this you need to run the following commands on terminal:
+
+    pip install questionary 
+
+    pip install fire
+
+These commands will install the packages needed to run the application smoothly
+
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+This application is ran in python using the CLI. Run the file and follow the promps accordingly. These are the following questions that the user should be ready to answer: 
+
+-Enter a file path to a rate-sheet (.csv):
+-What's your credit score?
+-What's your current amount of monthly debt?
+-What's your total monthly income?
+-What's your desired loan amount?
+-What's your home value?
+
+The application then will promt ask the user if they would like to save the loans as a file and the path:
+-Do you want to save your qualifying loans?
+-Path to save file
+
+
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
-
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+Open source 
